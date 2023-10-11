@@ -1,32 +1,62 @@
-# Prerequisites
-*.d
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore the CI scripts
+CI/
+CI/*
+CI/**/
+tools/extern/
+tools/extern/*
+tools/extern/**/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea/
+.idea/*
+.idea/**
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# CMake
+cmake-build-*/
 
-# Fortran module files
-*.mod
-*.smod
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# File-based project format
+*.iws
 
-# Executables
-*.exe
-*.out
-*.app
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# OSX
+.DS_Store
+
+Tools/
+Tools/**/
